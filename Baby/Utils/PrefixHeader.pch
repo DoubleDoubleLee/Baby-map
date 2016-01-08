@@ -1,0 +1,42 @@
+//
+//  PrefixHeader.pch
+//  Baby
+//
+//  Created by qianfeng on 15/11/6.
+//  Copyright © 2015年 Double Lee. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+
+#define MAS_SHORTHAND
+
+#define MAS_SHORTHAND_GLOBALS
+#import "Masonry.h"
+
+#import "Macro.h"
+#import "FMDatabase.h"
+#import "FMResultSet.h"
+#import "LSSDBManager.h"
+
+
+#import "SCASystem.h"
+#import "WGWHelper.h"
+#import "SCNavigation.h"
+#import "LSSParseData.h"
+#import "LSSMainModel.h"
+#import "LSSShowModel.h"
+#import "LSSMineBabyModel.h"
+
+#import "LSSDownAndUpLoadObject.h"
+#import "LSSMainTableViewCell.h"
+#import "UIImageView+WebCache.h"
+#import "Advertisement.h"
+#import "MJRefresh.h"
+#import "MBProgressHUD.h"
+#import "RDVTabBarController.h"
+#import "LSSDetailViewController.h"
+#endif /* PrefixHeader_pch */
